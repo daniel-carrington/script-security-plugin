@@ -109,7 +109,52 @@ method java.lang.String toLowerCase java.util.Locale
 method java.lang.String toUpperCase
 method java.lang.String toUpperCase java.util.Locale
 method java.lang.String trim
+staticMethod java.lang.String join java.lang.CharSequence java.lang.CharSequence[]
+staticMethod java.lang.String join java.lang.CharSequence java.lang.Iterable
 staticMethod java.lang.String valueOf java.lang.Object
+new java.lang.StringBuffer
+new java.lang.StringBuffer int
+new java.lang.StringBuffer java.lang.CharSequence
+new java.lang.StringBuffer java.lang.String
+method java.lang.StringBuffer append boolean
+method java.lang.StringBuffer append char
+method java.lang.StringBuffer append char[]
+method java.lang.StringBuffer append char[] int int
+method java.lang.StringBuffer append java.lang.CharSequence
+method java.lang.StringBuffer append java.lang.CharSequence int int
+method java.lang.StringBuffer append double
+method java.lang.StringBuffer append float
+method java.lang.StringBuffer append int
+method java.lang.StringBuffer append long
+method java.lang.StringBuffer append java.lang.Object
+method java.lang.StringBuffer append java.lang.String
+method java.lang.StringBuffer append java.lang.StringBuffer
+method java.lang.StringBuffer capacity
+method java.lang.StringBuffer charAt int
+method java.lang.StringBuffer delete int int
+method java.lang.StringBuffer deleteCharAt int
+method java.lang.StringBuffer ensureCapacity int
+method java.lang.StringBuffer indexOf java.lang.String int
+method java.lang.StringBuffer insert int boolean
+method java.lang.StringBuffer insert int char
+method java.lang.StringBuffer insert int char[]
+method java.lang.StringBuffer insert int char[] int int
+method java.lang.StringBuffer insert int java.lang.CharSequence
+method java.lang.StringBuffer insert int java.lang.CharSequence int int
+method java.lang.StringBuffer insert int double
+method java.lang.StringBuffer insert int float
+method java.lang.StringBuffer insert int int
+method java.lang.StringBuffer insert int long
+method java.lang.StringBuffer insert int java.lang.Object
+method java.lang.StringBuffer insert int java.lang.String
+method java.lang.StringBuffer insert int java.lang.StringBuffer
+method java.lang.StringBuffer lastIndexOf java.lang.String
+method java.lang.StringBuffer lastIndexOf java.lang.String int
+method java.lang.StringBuffer length
+method java.lang.StringBuffer reverse
+method java.lang.StringBuffer substring int
+method java.lang.StringBuffer substring int int
+method java.lang.StringBuffer toString
 staticMethod java.lang.System currentTimeMillis
 method java.lang.Throwable getCause
 method java.lang.Throwable getMessage
